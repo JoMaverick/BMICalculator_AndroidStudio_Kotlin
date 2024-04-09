@@ -5,7 +5,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.RadioButton
 import android.widget.TextView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +15,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         findViewById<Button>(R.id.btn_inputData).setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
-        startActivityForResult(intent, 1)}
+            startActivityForResult(intent, 1)
+        }
+
+
+        val bmiInfoButton = findViewById<Button>(R.id.btn_BMIInfo)
+
+        bmiInfoButton.setOnClickListener {
+            startActivityForResult(Intent(this, ThirdActivity::class.java), 1)
+        }
+
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -25,6 +37,7 @@ class MainActivity : AppCompatActivity() {
                 findViewById<TextView>(R.id.tv_bmiValue).text = "BMI Value: ${it.getDouble("BMIValue")}"
                 findViewById<TextView>(R.id.tv_status).text = "Status: ${it.getString("status")}"
             }
+
         }
 
 

@@ -60,4 +60,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:text="Status:" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Info."
+        android:layout_gravity="end"
+        android:id="@+id/btn_BMIInfo"/>
+
+
 </LinearLayout>
