@@ -15,23 +15,54 @@
             android:id="@+id/btn_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:text="Back to Main" />
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="20dp"
+            android:text="Back Main" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="50dp"
             android:layout_marginEnd="20dp"
-
+            android:textSize="25dp"
             android:text="BMI Info. (Page I)"/>
         <TextView
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="The World Health Organization recommends a Body Mass Index (BMI) as a measure of obesity by dividing your weight in kilograms by your height in meters. The National Health Administration recommends that the BMI of adults in China should be maintained between 18.5 (kg/㎡) and 24 (kg/㎡), and being too thin, overweight or too fat will be detrimental to health."
-            />
+            android:textSize="25dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="10dp"
+                android:text=" "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Swipe Left" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
