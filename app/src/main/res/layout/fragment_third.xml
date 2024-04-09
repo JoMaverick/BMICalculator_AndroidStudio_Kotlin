@@ -28,13 +28,14 @@
             android:layout_marginEnd="20dp"
             android:textSize="25dp"
             android:text="BMI Info. (Page III)"/>
+
         <TextView
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="For health problems such as being too thin, there will be health problems such as malnutrition, osteoporosis, and sudden death. BMI ＜ 18.5 "
+            android:text="For health problems such as being too thin, there will be health problems such as malnutrition, osteoporosis, and sudden death. BMI \u003C 18.5 "
             android:textSize="25dp"/>
 
         <LinearLayout
@@ -59,8 +60,7 @@
                 android:layout_gravity="end"
                 android:textSize="30dp"
                 android:layout_marginBottom="20dp"
-                android:layout_marginEnd="10dp"
-                android:text="" />
+                android:layout_marginEnd="10dp" />
 
         </LinearLayout>
 

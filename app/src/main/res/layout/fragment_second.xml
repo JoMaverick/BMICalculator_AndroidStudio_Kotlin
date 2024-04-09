@@ -28,13 +28,14 @@
             android:layout_marginEnd="20dp"
             android:textSize="25dp"
             android:text="BMI Info. (Page II)"/>
+
         <TextView
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Being overweight or obese (BMI≧24) is a major risk factor for chronic diseases such as diabetes, cardiovascular disease, and malignancy Overweight: 24≦ BMI < 27 Mild obesity: 27≦ BMI <30 Moderate obesity: 30≦ BMI <35 Severe obesity: BMI ≧ 35"
+            android:text="Being overweight or obese (BMI \u2265 24) is a major risk factor for chronic diseases such as diabetes, cardiovascular disease, and malignancy Overweight: 24 \u2264 BMI \u003C 27 Mild obesity: 27 \u2264 BMI \u003C 30 Moderate obesity: 30 \u2264 BMI \u003C 35 Severe obesity: BMI \u2265 35"
             android:textSize="25dp"/>
 
 
